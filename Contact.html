@@ -1,0 +1,155 @@
+<!DOCTYPE Html>
+
+<html lang="ka-ge"> 
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="desctription" content="My website">
+	
+	<meta name="keywords" content="Html,CSS,Javascript">
+
+	<meta name="author" content="Giorgi Kuprava">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<title>კონტაქტი</title>
+
+	<link rel="stylesheet" type="text/css" href="CSS/all.min.css">	
+
+	<link rel="stylesheet" type="text/css" href="CSS/MyStyle.css">
+
+	<link rel="stylesheet" type="text/css" href="CSS/sweetalert.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<header class="text-center">
+
+				<strong class="border"><a href="#">WEBSite.Com</a></strong> |&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html"><img src="http://www.pngall.com/wp-content/uploads/2016/04/Domain-Free-Download-PNG.png" class="Logo" style="width: 7%;padding: 15px;padding-left:0px;"></a>|&nbsp;<a href="#" style="text-decoration: none;" class="border"><strong>My First Website</strong></a> 
+
+	</div>
+
+			<nav class="navbar navbar-expand-sm bg-light">
+
+			  <div class="container">	
+
+				  <ul class="navbar-nav"   style="margin:auto;>
+
+				    <li class="nav-item">
+
+				      <a class="nav-link" href="index.html">მთავარი</a>
+
+				    </li>
+
+				    <li class="nav-item">
+
+				      <a class="nav-link" href="ChvensShesaxeb.html">ჩვენს შესახებ</a>
+
+				    </li>
+
+				    <li class="nav-item">
+
+				      <a class="nav-link" href="Contact.html">კონტაქტი</a>
+
+				    </li> 
+
+				  </ul>
+
+			</nav>
+
+			  <!--კონტეინერის დასასრულის Div--> </div>
+
+		</header>
+
+		<br>
+
+	<div class="container">
+
+	 	<div class="row">
+
+			<div class="col-md-6 col-sm-12">
+				
+				<form action="javascript:void(0)">
+				  <div class="form-group">
+				    <label for="name">სახელი:</label>
+				    <input type="name" class="form-control" id="name">
+				  </div>
+				  <div class="form-group">
+				    <label for="email">იმეილი:</label>
+				    <input type="email" class="form-control" id="email">
+				  </div>
+
+					<textarea class="form-control" style="max-height: 300px" rows="5" id="comment">ეს არის ტექსტი.</textarea> <br>
+				  
+				  <div class="form-group form-check">
+				    <label class="form-check-label">
+				      <input class="form-check-input" type="checkbox"> დამიმახსოვრე
+				    </label>
+				 </div><div class="text-right">
+				 	<button type="submit" class="btn btn-primary text-right">გაგზავნა</button>
+				 </div>
+				</form>
+
+			</div>
+
+			<div class="col-md-6 col-sm-12">
+				
+				<ul class="list-group" style="margin-top: 32px">
+				  <li class="list-group-item d-flex ">
+				    <i class="fas fa-phone-volume"></i> &nbsp;  ტელეფონი : +995 595 - 90 - 80 - 70
+				  </li>
+				  <li class="list-group-item d-flex ">
+				    <i class="fas fa-envelope"></i> &nbsp; იმეილი : &nbsp; <a href=""> Email@MyWeb.Com </a>
+				  </li>
+				  <li class="list-group-item d-flex ">
+				    <i class="fas fa-home"></i> &nbsp; თბილისი , ვაკე , ჭავჭავაძის 3
+				  </li>
+				</ul>
+
+			</div>
+
+		</div>	
+
+		<br> <br> <br>
+
+		<!--Footer START--> <footer class="col-md-12">
+				
+			<hr>
+			<div class="text-center">&copy; KupravaG <sup>2019</sup></div><br>
+
+		<!--Footer END--> </footer>
+
+
+
+	<!--კონტეინერის დასასრულის Div--> </div>
+
+
+	<script type="text/javascript" src="JS/sweetalert.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="JS/JQuery.min.js"></script>
+
+	<script type="text/javascript">
+
+
+
+		$('form').submit(function(){
+
+			swal("მადლობა!", "შენი წერილი წარმატებით გაიგზავნა!", "success");
+
+		})
+
+
+	</script>
+
+</body>
+
+</html>
